@@ -14,13 +14,19 @@ public class PrintArgument implements ApplicationRunner {
 	
 	@Autowired
 	public PrintArgument(ApplicationArguments arguments) {
+		System.out.println("################## PrintArgument ##################");
 		System.out.println("foo: " + arguments.containsOption("foo"));
 		System.out.println("bar: " + arguments.containsOption("bar"));
+		System.out.println("################## PrintArgument ##################");
+		System.out.println("\n");
 	}
 
 	@Override
 	public void run(ApplicationArguments args) throws Exception {
+		System.out.println("################## PrintArgument ApplicationRunner ##################");
 		System.out.println("foo: " + args.containsOption("foo"));
 		System.out.println("bar: " + args.containsOption("bar"));
+		System.out.println("################## PrintArgument ApplicationRunner ##################");
+		System.out.println("\n");
 	}
 }

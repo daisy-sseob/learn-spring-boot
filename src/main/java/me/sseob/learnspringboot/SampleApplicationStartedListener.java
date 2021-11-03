@@ -9,8 +9,9 @@ public class SampleApplicationStartedListener implements ApplicationListener<App
 
 	@Override
 	public void onApplicationEvent(ApplicationStartedEvent event) {
-		System.out.println("########################");
+		System.out.println("############ SampleApplicationStartedListener ############");
 		System.out.println("Application is started !!");
-		System.out.println("########################");
+		System.out.println("############ SampleApplicationStartedListener ############");
+		System.out.println("\n");
 	}
 }

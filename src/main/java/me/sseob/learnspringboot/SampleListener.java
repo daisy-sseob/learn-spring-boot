@@ -7,8 +7,9 @@ public class SampleListener implements ApplicationListener<ApplicationStartingEv
 	
 	@Override
 	public void onApplicationEvent(ApplicationStartingEvent event) {
-		System.out.println("########################");
+		System.out.println("############SampleListener############");
 		System.out.println("Application is stating !");
-		System.out.println("########################");
+		System.out.println("############SampleListener############");
+		System.out.println("\n");
 	}
 }
