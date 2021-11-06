@@ -6,7 +6,7 @@ import org.springframework.context.annotation.Profile;
 
 @Configuration
 @Profile("hyun")
-public class HyubProfileConfig {
+public class HyunProfileConfig {
 	
 	@Bean
 	public String hello() {
