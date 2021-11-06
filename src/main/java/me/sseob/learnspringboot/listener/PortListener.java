@@ -1,4 +1,4 @@
-package me.sseob.learnspringboot;
+package me.sseob.learnspringboot.listener;
 
 import org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext;
 import org.springframework.boot.web.servlet.context.ServletWebServerInitializedEvent;

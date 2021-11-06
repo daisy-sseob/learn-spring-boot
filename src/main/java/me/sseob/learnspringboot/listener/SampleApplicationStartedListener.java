@@ -1,4 +1,4 @@
-package me.sseob.learnspringboot;
+package me.sseob.learnspringboot.listener;
 
 import org.springframework.boot.context.event.ApplicationStartedEvent;
 import org.springframework.context.ApplicationListener;

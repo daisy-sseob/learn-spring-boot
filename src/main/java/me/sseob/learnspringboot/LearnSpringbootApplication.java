@@ -1,5 +1,6 @@
 package me.sseob.learnspringboot;
 
+import me.sseob.learnspringboot.listener.SampleListener;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.WebApplicationType;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
