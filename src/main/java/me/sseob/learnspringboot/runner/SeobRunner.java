@@ -1,6 +1,8 @@
 package me.sseob.learnspringboot.runner;
 
 import me.sseob.Seob;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.boot.ApplicationArguments;
 import org.springframework.boot.ApplicationRunner;
 import org.springframework.stereotype.Component;
@@ -11,6 +13,8 @@ import org.springframework.stereotype.Component;
 @Component
 public class SeobRunner implements ApplicationRunner {
 
+	private Logger logger = LoggerFactory.getLogger(this.getClass());
+
 	private final Seob seob;
 
 	public SeobRunner(Seob seob) {
@@ -19,6 +23,6 @@ public class SeobRunner implements ApplicationRunner {
 
 	@Override
 	public void run(ApplicationArguments args) throws Exception {
-		System.out.println("SeobRunner: " + seob + "\n");
+		logger.debug("SeobRunner: {}\n",seob);
 	}
 }
