@@ -41,6 +41,5 @@ public class SampleControllerSliceTest {
 				.contains("sseobs")
 				.contains("=====")
 		;
-		
 	}
 }
